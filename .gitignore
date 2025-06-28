@@ -1,29 +1,36 @@
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-
-### VS Code ###
-.vscode/
-
-### Mac OS ###
+# OS-generated files
 .DS_Store
+Thumbs.db
+
+# IDEs/editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+logs/
+tmp/
+*.tmp
+
+# Docker
+*.pid
+.env
+docker-compose.override.yml
+
+# Kubernetes
+*.yaml~        # temp or backup YAMLs
+*.backup.yaml
+
+# Minikube
+.kube/
+minikube/
+.cache/
+
+# NodePort tunneling logs
+*.log
+
+# Others
+*.tar.gz
+*.zip
