@@ -43,9 +43,6 @@ Docker_WordPress_Deployment/
 │ ├── docker/
 │ └── wordpress/
 │
-├── scripts/
-│ └── ssh-keygen.sh
-│
 ├── .gitignore
 └── README.md
 ```
