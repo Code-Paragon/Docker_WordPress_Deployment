@@ -34,3 +34,12 @@ minikube/
 # Others
 *.tar.gz
 *.zip
+# IntelliJ/WebStorm/JetBrains
+.idea/
+
+# User-specific files
+*.iml
+
+# Project folders to exclude
+src/
+screenshots/
