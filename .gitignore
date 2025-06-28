@@ -1,29 +1,51 @@
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+# === Terraform ===
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.tfvars.json
+.crash
+.terraform/
+.terraform.lock.hcl
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+# Sensitive keys and credentials
+*.pem
+*.key
+*.pub
+*.crt
+*.csr
+*.p12
+*.jks
+*.vault
+*.enc
+*.env
+*.secrets
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# === Ansible ===
+*.retry
+*.log
+*.tar.gz
+*.zip
+ansible.cfg~
+inventory.ini~
 
-### VS Code ###
-.vscode/
+# === SSH ===
+~/.ssh/*
+!.gitignore
 
-### Mac OS ###
+# === OS-generated files ===
 .DS_Store
+Thumbs.db
+
+# === Editor/IDE ===
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# === NodePort / Tunnel Logs ===
+*.log
+
+# === General backups ===
+*~
+*.bak
+*.backup
